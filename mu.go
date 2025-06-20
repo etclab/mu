@@ -52,3 +52,9 @@ func BoolToInt(b bool) int {
 	}
 	return 0
 }
+
+// IntToBool converts an int to a bool.  It returns true if i is nonzero,
+// and false if i is zero.
+func IntToBool(i int) bool {
+	return i != 0
+}
